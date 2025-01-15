@@ -13,7 +13,7 @@ namespace Exam
         public string Body { get; set; }
         public int Mark { get; set; }
         public Answer[] answerList { get; set; }
-        public Answer RightAnswer { get; set; }
+        public int RightAnswer { get; set; }
 
 
         public Question(string Header, string Body, int Mark)
